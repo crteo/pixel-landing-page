@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +21,12 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap');
-        
+
         body {
             font-family: 'Be Vietnam Pro', sans-serif;
             padding-top: 80px;
         }
-        
+
         nav {
             position: fixed;
             top: 0;
@@ -35,31 +36,31 @@
             background-color: white;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        
+
         .fade-in {
             opacity: 0;
             transform: translateY(30px);
             transition: opacity 0.6s ease-out, transform 0.6s ease-out;
         }
-        
+
         .fade-in.visible {
             opacity: 1;
             transform: translateY(0);
         }
-        
+
         .hover-lift {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        
+
         .hover-lift:hover {
             transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
         }
-        
+
         .gradient-bg {
             background: linear-gradient(135deg, #4F87FF 0%, #6366f1 100%);
         }
-        
+
         .isometric-team-card {
             background: linear-gradient(135deg, #E8F4FD 0%, #D1E9FC 100%);
         }
@@ -87,14 +88,15 @@
 
         /* Desktop: 50vh */
         @media (min-width: 768px) {
-        #hero {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            #hero {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
-    }
     </style>
 </head>
+
 <body class="bg-white">
     <!-- Navigation -->
     <nav class="flex items-center justify-between px-6 py-4 lg:px-12">
@@ -103,27 +105,39 @@
                 <img src="Assets/Logos/pixcel-name-logo.png" alt="Pixcel" class="h-12 w-auto">
             </a>
         </div>
-        
+
         <!-- Desktop Menu -->
         <div class="hidden md:flex items-center gap-8">
-            <a href="https://ask-cher-blog.vercel.app" class="text-gray-600 hover:text-gray-900 transition-colors">Study Smarter</a>
+            <a href="https://ask-cher-blog.vercel.app" class="text-gray-600 hover:text-gray-900 transition-colors">Study
+                Smarter</a>
             <a href="/about-us.html" class="text-pixcel-blue font-semibold">Who Are We</a>
-            <button class="bg-pixcel-blue text-white px-6 py-2 rounded-full hover:bg-blue-600 transition-all duration-300 hover:scale-105">Play Pixcel</button>
+
+
+
+
+            <a href="https://dist-virid-two.vercel.app/"
+                class="bg-pixcel-blue text-white px-6 py-2 rounded-full hover:bg-blue-600 transition-all duration-300 hover:scale-105">Play
+                Pixcel</a>
+
+
         </div>
-        
+
         <!-- Mobile Menu Button -->
         <button id="mobileMenuBtn" class="md:hidden" aria-label="Toggle mobile menu">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                </path>
             </svg>
         </button>
-        
+
         <!-- Mobile Menu -->
         <div id="mobileMenu" class="hidden fixed top-16 left-0 right-0 bg-white shadow-lg border-t md:hidden">
             <div class="flex flex-col p-6 space-y-4">
                 <a href="#" class="text-gray-600 hover:text-gray-900 transition-colors py-2">Study Smarter</a>
                 <a href="/about-us.html" class="text-gray-600 hover:text-gray-900 transition-colors py-2">Who Are We</a>
-                <button class="bg-pixcel-blue text-white px-6 py-3 rounded-full hover:bg-blue-600 transition-all duration-300 mt-4">Play Pixcel</button>
+                <button
+                    class="bg-pixcel-blue text-white px-6 py-3 rounded-full hover:bg-blue-600 transition-all duration-300 mt-4">Play
+                    Pixcel</button>
             </div>
         </div>
     </nav>
@@ -137,7 +151,9 @@
                     <span class="text-yellow-300">fun.</span>
                 </h1>
                 <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-                    At Pixcel, we believe that discipline starts from young. Getting an early head-start in discipline has a compounded effect. That's why we've gamified discipline, to help students have fun, explore their creativity while getting their work done.
+                    At Pixcel, we believe that discipline starts from young. Getting an early head-start in discipline
+                    has a compounded effect. That's why we've gamified discipline, to help students have fun, explore
+                    their creativity while getting their work done.
                 </p>
             </div>
         </div>
@@ -150,13 +166,19 @@
                 <div class="fade-in">
                     <h2 class="text-3xl lg:text-5xl font-bold mb-6">Our Story</h2>
                     <p class="text-xl text-gray-600 mb-6">
-                        We are educators in Singapore, and we spend countless hours with students to help them fulfil their potential. More recently, we've noticed young students seriously struggle to be disciplined with their work. Homework assigned are not completed, and the desire to scroll and play is strong.
+                        We are educators in Singapore, and we spend countless hours with students to help them fulfil
+                        their potential. More recently, we've noticed young students seriously struggle to be
+                        disciplined with their work. Homework assigned are not completed, and the desire to scroll and
+                        play is strong.
                     </p>
                     <p class="text-xl text-gray-600 mb-6">
-                        We asked ourselves: "What if completing homework could feel as exciting as playing a game?" That's when Pixcel was born - a platform where every completed task helps you build and customize your own virtual room.
+                        We asked ourselves: "What if completing homework could feel as exciting as playing a game?"
+                        That's when Pixcel was born - a platform where every completed task helps you build and
+                        customize your own virtual room.
                     </p>
                     <p class="text-xl text-gray-600">
-                        We're turning discipline, into a fun and rewarding experience. Today, thousands of students use Pixcel to turn their study sessions into creative building adventures.
+                        We're turning discipline, into a fun and rewarding experience. Today, thousands of students use
+                        Pixcel to turn their study sessions into creative building adventures.
                     </p>
                 </div>
                 <div class="fade-in">
@@ -172,10 +194,11 @@
             <div class="text-center mb-16 fade-in">
                 <h2 class="text-3xl lg:text-5xl font-bold mb-6">Our Mission & Values</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    We're driven by the belief that learning and productivity should be enjoyable, social, and rewarding.
+                    We're driven by the belief that learning and productivity should be enjoyable, social, and
+                    rewarding.
                 </p>
             </div>
-            
+
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Mission -->
                 <div class="bg-white rounded-3xl p-8 text-center hover-lift fade-in">
@@ -195,7 +218,8 @@
                     </div>
                     <h3 class="text-xl font-bold mb-4">Innovation</h3>
                     <p class="text-gray-600">
-                        We constantly push boundaries to create new ways of making educational tools more engaging and effective.
+                        We constantly push boundaries to create new ways of making educational tools more engaging and
+                        effective.
                     </p>
                 </div>
 
@@ -206,7 +230,8 @@
                     </div>
                     <h3 class="text-xl font-bold mb-4">Community</h3>
                     <p class="text-gray-600">
-                        We believe in the power of social connections and friendly competition to drive motivation and success.
+                        We believe in the power of social connections and friendly competition to drive motivation and
+                        success.
                     </p>
                 </div>
 
@@ -217,7 +242,8 @@
                     </div>
                     <h3 class="text-xl font-bold mb-4">Fun First</h3>
                     <p class="text-gray-600">
-                        We prioritize making every interaction delightful and enjoyable, because learning should never be boring.
+                        We prioritize making every interaction delightful and enjoyable, because learning should never
+                        be boring.
                     </p>
                 </div>
 
@@ -228,7 +254,8 @@
                     </div>
                     <h3 class="text-xl font-bold mb-4">Student Growth</h3>
                     <p class="text-gray-600">
-                        Everything we build is designed to help students develop better study habits and achieve their goals.
+                        Everything we build is designed to help students develop better study habits and achieve their
+                        goals.
                     </p>
                 </div>
 
@@ -239,7 +266,8 @@
                     </div>
                     <h3 class="text-xl font-bold mb-4">Quality</h3>
                     <p class="text-gray-600">
-                        We're committed to delivering a polished, reliable experience that students can count on every day.
+                        We're committed to delivering a polished, reliable experience that students can count on every
+                        day.
                     </p>
                 </div>
             </div>
@@ -255,7 +283,7 @@
                     The passionate people behind Pixcel who are dedicated to making productivity fun.
                 </p>
             </div>
-            
+
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Team Member 1 -->
                 <div class="bg-white rounded-3xl p-8 text-center hover-lift fade-in">
@@ -266,7 +294,8 @@
                     </div>
                     <h3 class="text-xl font-bold mb-2">Lin Leyi</h3>
                     <p class="text-gray-600 mb-4">
-                        Product manager who believes that every app should feel like an adventure. Loves education and building things.
+                        Product manager who believes that every app should feel like an adventure. Loves education and
+                        building things.
                     </p>
                 </div>
 
@@ -274,12 +303,14 @@
                 <div class="bg-white rounded-3xl p-8 text-center hover-lift fade-in">
                     <div class="isometric-team-card rounded-2xl p-6 mb-6">
                         <div class="w-24 h-24 rounded-full flex items-center justify-center mx-auto overflow-hidden">
-                            <img src="Assets/face/chengren.jpeg" alt="Cheng Ren's face" class="w-full h-full object-cover">
+                            <img src="Assets/face/chengren.jpeg" alt="Cheng Ren's face"
+                                class="w-full h-full object-cover">
                         </div>
                     </div>
                     <h3 class="text-xl font-bold mb-2">Cheng Ren</h3>
                     <p class="text-gray-600 mb-4">
-                        Tutor with a belief that "everyone isn't built the same, but with the right approach, anyone can perform well."
+                        Tutor with a belief that "everyone isn't built the same, but with the right approach, anyone can
+                        perform well."
                         Mechanical engineer by day, tutor by night.
                     </p>
                 </div>
@@ -293,7 +324,8 @@
                     </div>
                     <h3 class="text-xl font-bold mb-2">Fiona</h3>
                     <p class="text-gray-600 mb-4">
-                        Committed to helping kids build confidence and discipline, drawing on 5 years of tutoring experience to create tools that empower both children and parents.
+                        Committed to helping kids build confidence and discipline, drawing on 5 years of tutoring
+                        experience to create tools that empower both children and parents.
                     </p>
                 </div>
 
@@ -301,7 +333,8 @@
                 <div class="bg-white rounded-3xl p-8 text-center hover-lift fade-in">
                     <div class="isometric-team-card rounded-2xl p-6 mb-6">
                         <div class="w-24 h-24 rounded-full flex items-center justify-center mx-auto overflow-hidden">
-                            <img src="Assets/face/wunxin.jpeg" alt="Cheng Ren's face" class="w-full h-full object-cover">
+                            <img src="Assets/face/wunxin.jpeg" alt="Cheng Ren's face"
+                                class="w-full h-full object-cover">
                         </div>
                     </div>
                     <h3 class="text-xl font-bold mb-2">Wun Xin</h3>
@@ -319,13 +352,16 @@
             <div class="fade-in">
                 <h2 class="text-3xl lg:text-5xl font-bold text-white mb-6">Believe in Our Vision for Pixcel?</h2>
                 <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-                    Whether you're a student looking to make discipline fun, or a parent who's struggling with your child's education, we'd love to hear from you.
+                    Whether you're a student looking to make discipline fun, or a parent who's struggling with your
+                    child's education, we'd love to hear from you.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <button class="bg-pixcel-blue text-white px-8 py-4 rounded-full text-lg hover:bg-blue-600 transition-all duration-300 hover:scale-105">
+                    <a href="https://dist-virid-two.vercel.app/"
+                        class="bg-pixcel-blue text-white px-8 py-4 rounded-full text-lg hover:bg-blue-600 transition-all duration-300 hover:scale-105">
                         Try Pixcel Free
-                    </button>
-                    <a class="border-2 border-white text-white px-8 py-4 rounded-full text-lg hover:bg-white hover:text-pixcel-dark transition-all duration-300 inline-block text-center" href="/contact-us.html">
+                    </a>
+                    <a class="border-2 border-white text-white px-8 py-4 rounded-full text-lg hover:bg-white hover:text-pixcel-dark transition-all duration-300 inline-block text-center"
+                        href="/contact-us.html">
                         Contact Us
                     </a>
                 </div>
@@ -364,24 +400,24 @@
         // Mobile menu functionality
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
         const mobileMenu = document.getElementById('mobileMenu');
-        
+
         mobileMenuBtn.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
-        
+
         // Close mobile menu when clicking outside
         document.addEventListener('click', (event) => {
             if (!mobileMenuBtn.contains(event.target) && !mobileMenu.contains(event.target)) {
                 mobileMenu.classList.add('hidden');
             }
         });
-        
+
         // Intersection Observer for fade-in animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
         };
-        
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -389,11 +425,11 @@
                 }
             });
         }, observerOptions);
-        
+
         document.querySelectorAll('.fade-in').forEach(el => {
             observer.observe(el);
         });
-        
+
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', (e) => {
@@ -409,4 +445,5 @@
         });
     </script>
 </body>
+
 </html>
